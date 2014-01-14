@@ -16,6 +16,7 @@ import android.widget.Button;
 public class MainActivity extends Activity {
 	
 	final static String TARGET_BASE_PATH = "/sdcard/360launcher/theme/";
+	final static String deleteFiles = "/sdcard/360launcher/theme/";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,30 @@ public class MainActivity extends Activity {
         	copyFileOrDir("");
     }
     });
+    final Button eButton = (Button) findViewById(R.id.exit);
+    eButton.setOnClickListener(new View.OnClickListener() {
+    	public void onClick(View v) {
+    		MainActivity.this.finish();
+			
+		}
+	});
+	final Button uButton = (Button) findViewById(R.id.unistall);
+	uButton.setOnClickListener(new View.OnClickListener() {
+		public void onClick(View v) {
+			deleteFiles("");
+		}
+	});
+	}
+	
+	public void deleteFiles(String fullPath) {
+	    File file = new File(fullPath);
+	    if (file.exists()) {
+	        String deleteCmd = "rm -r " + fullPath;
+	        Runtime runtime = Runtime.getRuntime();
+	        try {
+	            runtime.exec(deleteCmd);
+	        } catch (IOException e) { }
+	    }
 	}
 
 		private void copyFileOrDir(String path) {
@@ -70,7 +95,7 @@ public class MainActivity extends Activity {
 		    try {
 		        Log.i("tag", "copyFile() "+filename);
 		        in = assetManager.open(filename);
-		        if (filename.endsWith(".jpg")) // extension was added to avoid compression on APK file
+		        if (filename.endsWith(".jpg"))
 		            newFileName = TARGET_BASE_PATH + filename.substring(0, filename.length()-4);
 		        else
 		            newFileName = TARGET_BASE_PATH + filename;
