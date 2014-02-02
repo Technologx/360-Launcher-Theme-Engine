@@ -12,11 +12,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 	
-	final static String TARGET_BASE_PATH = "/sdcard/360launcher/theme/";
-	final static String deleteFiles = "/sdcard/360launcher/theme/";
+	final static String TARGET_BASE_PATH = "/sdcard/360launcher/theme/custom/";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
     iButton.setOnClickListener(new View.OnClickListener() {
         public void onClick(View v) {
         	copyFileOrDir("");
+        	showProgress("");
     }
     });
     final Button eButton = (Button) findViewById(R.id.exit);
@@ -36,24 +37,13 @@ public class MainActivity extends Activity {
 			
 		}
 	});
-	final Button uButton = (Button) findViewById(R.id.unistall);
-	uButton.setOnClickListener(new View.OnClickListener() {
-		public void onClick(View v) {
-			deleteFiles("");
-		}
-	});
 	}
 	
-	public void deleteFiles(String fullPath) {
-	    File file = new File(fullPath);
-	    if (file.exists()) {
-	        String deleteCmd = "rm -r " + fullPath;
-	        Runtime runtime = Runtime.getRuntime();
-	        try {
-	            runtime.exec(deleteCmd);
-	        } catch (IOException e) { }
-	    }
-	}
+	public void showProgress(String string){
+
+		  TextView textview = (TextView) findViewById(R.id.complete);
+		  textview.setVisibility(View.VISIBLE);
+		}
 
 		private void copyFileOrDir(String path) {
 			AssetManager assetManager = this.getAssets();

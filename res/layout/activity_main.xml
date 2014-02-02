@@ -25,33 +25,26 @@
 		android:layout_marginBottom="59dp" >
 		<Button
 			android:id="@+id/install"
-			android:layout_width="wrap_content"
+			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_alignParentLeft="true"
 			android:layout_alignParentTop="true"
 			android:layout_toLeftOf="@+id/exit"
 			android:text="Install" />
 		<Button
-			android:id="@+id/unistall"
-			style="?android:attr/buttonStyleSmall"
+			android:id="@+id/exit"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_alignParentRight="true"
 			android:layout_alignParentTop="true"
-			android:text="Trash" />
-		<Button
-			android:id="@+id/exit"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_alignParentTop="true"
-			android:layout_toLeftOf="@+id/unistall"
 			android:text="Exit" />
 	</RelativeLayout>
 	<RelativeLayout
 		android:id="@+id/relativeLayout2"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_centerHorizontal="true" >
+		android:layout_centerHorizontal="true"
+		android:gravity="center_horizontal" >
 		<TextView
 			android:id="@+id/textView2"
 			android:layout_width="wrap_content"
@@ -108,4 +101,31 @@
 			android:textColor="@color/holoblue"
 			android:textAppearance="?android:attr/textAppearanceSmall" />
 	</RelativeLayout>
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@+id/relativeLayout1"
+		android:layout_below="@+id/relativeLayout2"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="56dp" >
+		<ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:src="@drawable/preview_1" />
+	</RelativeLayout>
+	<TextView
+		android:id="@+id/complete"
+		android:visibility="gone"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView1"
+		android:layout_alignLeft="@+id/relativeLayout1"
+		android:layout_alignRight="@+id/textView1"
+		android:layout_marginBottom="37dp"
+		android:gravity="center_horizontal"
+		android:text="Installation Complete!"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
 </RelativeLayout>
