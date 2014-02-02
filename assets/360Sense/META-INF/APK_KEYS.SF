@@ -1,0 +1,146 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: NP7v3c51f/CiJY29pV+onmY0uFs=
+Created-By: 1.6.0_27 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: RdL2wiLUuFu1bOrEFkNEnVChzms=
+
+Name: res/drawable-hdpi/default_indicator.png
+SHA1-Digest: 2199ohmLtFvnKXjnOUuglXxeGpI=
+
+Name: res/drawable-hdpi/drawer_dockbar_bg.png
+SHA1-Digest: 2W4syZ4TfxEnDnT7sONVSY0YpDs=
+
+Name: res/drawable-hdpi/theme_overview_title_background.png
+SHA1-Digest: tyy+4VDgHnNgc/51xDWIzUaj848=
+
+Name: res/drawable-hdpi/app_com_cooliris_media.png
+SHA1-Digest: So5G/sSTAj1HN8oWnbRmSfJsU0A=
+
+Name: assets/info.json.zh_CN
+SHA1-Digest: uSG81lDdFRvbT+QKAjjdfkOYWsA=
+
+Name: res/drawable-hdpi/preview_apply_bk_selector.xml
+SHA1-Digest: ViPPfykSm5YpAmMSL9iMVXAiGnI=
+
+Name: res/drawable-hdpi/workspace_indicator.png
+SHA1-Digest: 1A16XrxxIGoIL/SKZu8ka2MiuLM=
+
+Name: res/drawable-hdpi/app_com_android_contacts.png
+SHA1-Digest: UOWqcuac76DT4ptNLcUvsuBuc7I=
+
+Name: res/layout/custom_dialog.xml
+SHA1-Digest: mUF9pjhxQcrixMSOoY3/d8e6QAU=
+
+Name: resources.arsc
+SHA1-Digest: RiN11mzDAi8VQucXHbZRsUt+fts=
+
+Name: res/drawable-hdpi/app_com_android_contacts2.png
+SHA1-Digest: s6o+fA8fNyzh0Xz6PqvEyGeCL20=
+
+Name: assets/preview/preview2.jpg
+SHA1-Digest: pzOBTOm8mJMy5CMlz4tgYZteHUE=
+
+Name: res/drawable-hdpi/wallpaper_perset_bottom_bk.png
+SHA1-Digest: sk2t1Ca+3h76K+IOwdKvmXz3KQo=
+
+Name: res/drawable-hdpi/theme_title_bk.xml
+SHA1-Digest: k1sIFPd0+0iX79re8L2xb4ZqNUU=
+
+Name: assets/info.json
+SHA1-Digest: 7pQS8wYCeMl1+xc6viKfY8EMmTA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: KAsh3Fv6EDUOfmCL4mbLPyMqzFc=
+
+Name: res/drawable-hdpi/icon_drawer.png
+SHA1-Digest: D/BrsMtXbo+4gUhuKSin0xDCPXE=
+
+Name: res/drawable-hdpi/theme_preview_menu_bg.xml
+SHA1-Digest: SyjNkUIpk0YLyrkGm4zyF2krIKg=
+
+Name: res/drawable-hdpi/workspace_bg.jpg
+SHA1-Digest: t1swFsx7KUOy5DIhJTHKMveT3sM=
+
+Name: res/drawable-hdpi/drawer_indicator.png
+SHA1-Digest: rxzUltV3+FiHhQQkEcEkGaREamE=
+
+Name: res/drawable-hdpi/app_com_android_calendar.png
+SHA1-Digest: lUz6kpVVKAnzSBQm8m7OjCVtD8c=
+
+Name: res/drawable-hdpi/wallpaper_apply_img.png
+SHA1-Digest: qGsSp//TA6Snb+ZLCwjC71D1elk=
+
+Name: res/drawable-hdpi/drawer_indicator_current.png
+SHA1-Digest: MR3Vz7/MF4uQw+Qy/gKegOeIzOE=
+
+Name: res/drawable-hdpi/app_com_android_mms.png
+SHA1-Digest: DFZ8S/Cq7GpyWYby2/tmpEaD21Q=
+
+Name: res/drawable-hdpi/app_com_android_email.png
+SHA1-Digest: Jug0H+fpvVVkfTH98FOfJm6yLmo=
+
+Name: res/layout/theme_preview.xml
+SHA1-Digest: U091bsgqtdzhebWwgwafy+XupYs=
+
+Name: res/layout/file_downloading.xml
+SHA1-Digest: MtcMixg0pLNJjxizYWGyJ5o9tNo=
+
+Name: res/drawable-hdpi/app_com_android_browser.png
+SHA1-Digest: GK5UvTwYoUFeWkBqiFcyPfSBH3A=
+
+Name: res/drawable-hdpi/app_com_android_camera.png
+SHA1-Digest: GAJUAMsr9JzD2+YiRIv7zKKDUMM=
+
+Name: res/drawable-hdpi/app_com_android_calculator2.png
+SHA1-Digest: RKqToNj5J5AGzmb4h8jNzkA+3lc=
+
+Name: res/drawable-hdpi/wallpaper_perset_apply.9.png
+SHA1-Digest: HT7xpoUeI9ZLhKdGNMysyh6efA4=
+
+Name: res/drawable-hdpi/app_com_android_deskclock.png
+SHA1-Digest: GcU5wrus4HbOVQ+snLym+szKG4U=
+
+Name: classes.dex
+SHA1-Digest: UX+bWakLPoZm5Cta78QhX1f3Fko=
+
+Name: res/drawable-hdpi/icon_bg.png
+SHA1-Digest: yOr050S8xFr8LS/scA67EP+r624=
+
+Name: res/drawable-hdpi/drawer_bg.jpg
+SHA1-Digest: cK/w7ZWYExtXryDlBsk9Lnt58qk=
+
+Name: assets/preview/preview1.jpg
+SHA1-Digest: B5dNDc4E1IqiWuYX/J3sLkNZcX8=
+
+Name: res/drawable-hdpi/icon_home.png
+SHA1-Digest: 6IRl27PDDI/8HUJkdxYpld2phlo=
+
+Name: res/drawable-hdpi/wallpaper_preset_delete.png
+SHA1-Digest: esqWkRLkGyQPR7UKgvufSk9jeJg=
+
+Name: assets/preview/overview.jpg
+SHA1-Digest: GzHx2TZZSLTUXvpmznbuv6EHKDo=
+
+Name: res/layout/screen_indicator_item.xml
+SHA1-Digest: QfQAuF35XWcmWgJCJNC1YwSu+Bo=
+
+Name: res/drawable-hdpi/app_com_android_soundrecorder.png
+SHA1-Digest: /d+MrIEhX5cEzGwCtlcDXQRFj7g=
+
+Name: res/drawable-hdpi/wallpaper_pressed_apply.9.png
+SHA1-Digest: ELxqDEnwc9Ci9KTn12es7AxqLG8=
+
+Name: res/drawable-hdpi/default_indicator_current.png
+SHA1-Digest: eRmoNzbOD/av/mfiRV4W5gibiPY=
+
+Name: res/drawable-hdpi/app_com_android_settings.png
+SHA1-Digest: JaOcNypCcoCRIDmA+OgL0Fht4gM=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: BunyYGenKldX+NWO30wv4ZJW6gM=
+
+Name: res/drawable-hdpi/workspace_dockbar_bg.png
+SHA1-Digest: Z8wirbNqfel/t1TFzxXp6tqanAM=
+
+Name: res/drawable-hdpi/workspace_indicator_current.png
+SHA1-Digest: LhPRVurDTFBvfL9sZaGjvFADTBU=
+
